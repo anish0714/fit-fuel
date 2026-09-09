@@ -1,7 +1,7 @@
 import { Search } from "lucide-react";
 import type { ProteinType } from "../types";
 
-const PROTEINS: (ProteinType | "all")[] = ["all", "tofu", "chicken", "fish"];
+const PROTEINS: (ProteinType | "all")[] = ["all", "tofu", "chicken", "fish", "chickpea"];
 
 interface Props {
   search: string;
