@@ -1,4 +1,4 @@
-export type ProteinType = "tofu" | "chicken" | "fish";
+export type ProteinType = "tofu" | "chicken" | "fish" | "chickpea";
 
 export type RecipeCategory = "dinner" | "breakfast";
 

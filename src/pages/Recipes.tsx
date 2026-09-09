@@ -38,8 +38,8 @@ export default function Recipes() {
       <h1 className="font-display text-3xl font-bold">Recipes</h1>
       <p className="mt-2 mb-6 max-w-2xl text-fg-muted">
         {category === "dinner"
-          ? "Air-fryer dinners, weighted toward tofu with fish and chicken in rotation. The fiber-tagged ones fold in spring mix or spinach."
-          : "Same 4 eggs and 2 bagels, three different directions so the first meal of the day doesn't go stale."}
+          ? "Air-fryer dinners built from tofu, fish, chicken, and chickpeas. The fiber-tagged ones fold in spring mix, spinach, or a full can of chickpeas."
+          : "Four ways to start the eating window — three egg-and-bagel spins and one oats bowl for a change of pace."}
       </p>
 
       <div className="mb-6 flex gap-1 rounded-full border border-line bg-canvas-subtle p-1 w-fit">

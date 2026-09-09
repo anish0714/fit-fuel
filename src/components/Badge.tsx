@@ -4,6 +4,7 @@ const STYLES: Record<ProteinType, string> = {
   tofu: "bg-accent-muted text-accent-emphasis",
   chicken: "bg-warm-muted text-warm",
   fish: "bg-danger/15 text-danger",
+  chickpea: "bg-canvas-inset text-fg-muted border border-line",
 };
 
 export default function Badge({ protein }: { protein: ProteinType }) {
