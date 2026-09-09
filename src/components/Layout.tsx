@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { to: "/shopping-list", label: "Shopping List", end: false },
   { to: "/supplements", label: "Supplements", end: false },
   { to: "/macros", label: "Macros", end: false },
+  { to: "/suggestion", label: "Get Suggestion", end: false },
 ];
 
 export default function Layout() {
