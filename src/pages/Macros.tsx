@@ -1,8 +1,6 @@
 import { useMemo, useState } from "react";
+import { PROTEIN_BAR, POST_WORKOUT_BOWL } from "../data/extras";
 import { BREAKFASTS, DINNERS } from "../data/recipes";
-
-const PROTEIN_BAR = { label: "Protein bar", protein: 20, kcal: 200 };
-const POST_WORKOUT_BOWL = { label: "Post-workout bowl", protein: 28, kcal: 230 };
 
 export default function Macros() {
   const [breakfastId, setBreakfastId] = useState(BREAKFASTS[0]?.id ?? "");

@@ -1,9 +1,13 @@
 import { RotateCcw } from "lucide-react";
+import { POST_WORKOUT_BOWL, PROTEIN_BAR } from "../data/extras";
 import { BREAKFASTS, DINNERS } from "../data/recipes";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { WEEKDAYS, type MealPlan as MealPlanType } from "../types";
 
-const FIXED_EXTRAS = { protein: 20 + 28, kcal: 200 + 230 }; // protein bar + post-workout bowl
+const FIXED_EXTRAS = {
+  protein: PROTEIN_BAR.protein + POST_WORKOUT_BOWL.protein,
+  kcal: PROTEIN_BAR.kcal + POST_WORKOUT_BOWL.kcal,
+}; // protein bar + post-workout bowl
 
 const EMPTY_PLAN: MealPlanType = Object.fromEntries(
   WEEKDAYS.map((day) => [day, { dinnerId: null, breakfastId: null }]),

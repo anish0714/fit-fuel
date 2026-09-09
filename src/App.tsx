@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound";
 import Overview from "./pages/Overview";
 import Recipes from "./pages/Recipes";
 import ShoppingList from "./pages/ShoppingList";
+import Suggestion from "./pages/Suggestion";
 import Supplements from "./pages/Supplements";
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="shopping-list" element={<ShoppingList />} />
         <Route path="supplements" element={<Supplements />} />
         <Route path="macros" element={<Macros />} />
+        <Route path="suggestion" element={<Suggestion />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
